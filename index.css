@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Poppins:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@300&family=Sacramento&display=swap');
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: #f2e7d5;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.header {
+    position: sticky;
+    width: 100%;
+    max-width: auto;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    box-sizing: border-box;
+    background-color: #6D9886;
+   
+}
+.nav {
+    position: sticky;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    background-color: #6D9886;
+    
+}
+.nav>li {
+    position: sticky;
+    margin-left: 20px;
+    margin-right: 100px;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 15px;
+    background-color: #6D9886;
+
+     }
+.logo_img {
+    position: sticky;
+    display:flex;
+    width: 105.02px;
+    height: 105.02px;
+    background-image: url(../images/saas.png);
+
+}
+a {
+    all: unset;
+}
+
+
+
+
+
+
+
+
+h1{
+    position: relative;
+    color: #6D9886;
+    text-align: center;
+    font-family: 'Antonio', sans-serif;
+    font-size: 115px;
+    font-weight: 550;
+    
+}
+h4{
+    text-align: center;
+    position: relative;
+    bottom: 10px; left: 0px;
+    font-family: 'Sacramento', cursive;
+    font-size: 49px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 49px;
+    line-height: 28px;
+    color: #393E46  
+}
+
+#parahead1{
+    /* make your party with delicious dishes */
+position: absolute;
+width: 700px;
+height: 192px;
+left: 188px;
+top: 1367px;
+
+font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 700;
+font-size: 58px;
+line-height: 50px;
+/* or 58% */
+letter-spacing: 0em;
+text-transform: uppercase;
+max-width: 700px;
+line-break: auto;
+color: #393E46;
+
+}
+
+#spag2{
+    /* image 20 */
+
+position: absolute;
+width: 629px;
+height: 835px;
+left: 780px;
+top: 1367px;
+grid-column: 6/12;
+background: url(../images/spaggy2.png);
+
+}
+#drinks{
+    /* Group 16 */
+
+position: absolute;
+width: 181px;
+height: 269px;
+left: 155px;
+top: 1964px;
+
+
+
+/* Rectangle 5 */
+
+position: absolute;
+width: 181px;
+height: 269px;
+left: 155px;
+top: 1964px;
+
+background: #F2E7D5;
+border-radius: 90.5px;
+
+
+/* image 21 */
+
+position: absolute;
+width: 162px;
+height: 245px;
+left: 165px;
+top: 1976px;
+
+background: url(../images/image\ 21.png);
+border-radius: 100px;
+
+}
+#parahead2{
+    /* We at Leisure Square Grub & Wine would love to serve you yummy dishes straight from our kitchen ready for you. */
+
+position: absolute;
+width: 229px;
+height: 137px;
+left: 279px;
+top: 1679px;
+
+font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 28px;
+/* or 145% */
+letter-spacing: 0.05em;
+background-color: #F7F7F7;
+color: #6D9886;
+
+}
+
+#menu
+{
+    /* MENU */
+border-color:#F2E7D5 ;
+color: #6D9886;
+position: absolute;
+width: 77px;
+height: 28px;
+left: 366px;
+top: 2059px;
+
+font-family: 'Sacramento', cursive;
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 28px;
+/* identical to box height, or 120% */
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+
+color: #393E46;
+
+}
+
+#fries{
+    /* image 24 */
+    background: url(../images/fries.png);
+    position: absolute;
+    width: 585px;
+    height: 412px;
+    left: 188px;
+    top: 2336px;
+
+
+
+}
+
+#parahead3
+{
+    /* Hundreds of flavors under one roof */
+
+position: absolute;
+width: 600px;
+height: 220px;
+left: 818px;
+top: 2342px;
+
+font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 700;
+font-size: 58px;
+line-height: 50px;
+/* or 58% */
+letter-spacing: 0.05em;
+text-transform: uppercase;
+background-color: #F7F7F7;
+color: #393E46;
+
+
+
+}
+#parahead5{
+    /* We believe passionately in great bargains and excellent service, which is why we commit ourselves to giving you the best of both. If you’re looking for something new, you’re in the right place. We strive to be industrious and innovative, offering our customers something they want, putting their desires at the top of our priority list. */
+
+position: absolute;
+width: 500px;
+height: 250px;
+left: 818px;
+top: 2550px;
+
+font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 30px;
+/* or 145% */
+letter-spacing: 0.05em;
+background-color: #F7F7F7;
+color: #6D9886;
+}
+
+#pic1{
+    /* image 26 */
+    
+    position: absolute;
+    width: 345px;
+    height: 303px;
+    left: 818px;
+    top: 2938px;
+    
+    background: url(../images/pic1.png);
+    
+    
+        }
+#pic2{
+    
+        /* image 25 */
+    
+    position: absolute;
+    width: 345px;
+    height: 303px;
+    left: 818px;
+    top: 3281px;
+    
+    background: url(../images/pic2.png);
+    
+     }
+    
+ #about{
+
+
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    left: 196px;
+    top: 2998px;
+
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 55px;
+    /* or 58% */
+    letter-spacing: 0.0em;
+    text-transform: uppercase;
+    background-color: #6D9886;
+    color: #F2E7D5;
+
+ }
+ #para4{
+        /* We at Leisure Square Grub & Wine would love to serve you yummy dishes straight from our kitchen ready for you. We will fulfil you hunger needs and ensure that we leave you licking your fingers and asking for more yummy dishes! We believe passionately in great bargains and excellent service, which is why we commit ourselves to giving you the best of both. If you’re looking for something new, you’re in the right place. We strive to be industrious and innovative, offering our customers something they want, putting their desires at the top of our priority list. So hurry! Order now! */
+
+    position: absolute;
+    width: 534px;
+    height: 296px;
+    left: 188px;
+    top: 3125px;
+
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    /* or 145% */
+    letter-spacing: 0.05em;
+    background-color: #6D9886;
+        color: #F2E7D5;
+
+
+
+    }
+    #rec1{
+        /* Rectangle 6 */
+
+    position: absolute;
+    width: 1231px;
+    height: 1343px;
+    left: 188px;
+    top: 1595px;
+    background-image: url(../images/Rectangle\ 6.svg);    
+    
+    }
+
+    #rec2{
+        /* Rectangle 13 */
+    background-image: url(../images/Rectangle\ 13.svg);    
+    position: absolute;
+    width: 1183px;
+    height: 732px;
+    left: 127px;
+    top: 2889px;
+
+
+    }
+
+    #leisure_square{
+    position: relative;
+    width: 249px;
+    height: 28px;
+    left: 187px;
+    top: 3665px;
+    
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 28px;
+    /* identical to box height, or 86% */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #393E46;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

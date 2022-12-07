@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Poppins:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@300&family=Sacramento&display=swap');
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0%;
+    background-color: #F2E7D5;
+    
+}
+
+.header {
+    position: sticky;
+    width: 100%;
+    max-width: auto;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    box-sizing: border-box;
+    background-color: #6D9886;
+   
+}
+.nav {
+    position: sticky;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    background-color: #6D9886;
+    
+}
+.nav>li {
+    position: sticky;
+    margin-left: 20px;
+    margin-right: 100px;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 15px;
+    background-color: #6D9886;
+
+     }
+.logo_img {
+    position: sticky;
+    display:flex;
+    width: 105.02px;
+    height: 105.02px;
+    background-image: url(../images/saas.png);
+
+}
+a {
+    all: unset;
+}
+
+
+
+h1{
+    position: relative;
+    color: #393E46;
+    text-align: center;
+    font-family: 'Antonio', sans-serif;
+    font-size: 115px;
+    font-weight: 550;
+    
+}
+h2 {
+    text-align: center;
+    position: relative;
+    bottom: 10px; left: 0px;
+    font-family: 'Sacramento',cursive;
+    font-size: 49px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 49px;
+    line-height: 28px;
+    color: #F2E7D5;
+    background-color:#6d9886;
+}
+
+#codehim-form{
+    max-width: 400px;
+    min-height: 400px;
+    box-sizing: content-box;
+    background-color: #6d9886;
+    border-radius: 30px;
+    margin:  20px auto 0 auto;
+    padding: 40px;
+      background-image: url(../images/backyy4.png);
+       
+}
+.cm-input{
+    display: block;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%; 
+    margin: 14px auto;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    
+    
+}
+.cm-input:focus{
+    outline: 0;
+    border-color: #f9cb81;
+    
+}
+.cm-input:invalid{
+    border-color: #e41b17;
+    
+}
+#signin{
+    background-color: #6d9886;
+}
+ 
+.btn-login{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.btn-login:focus{
+    outline: 1;
+}
+
+.btn-login:hover{
+    opacity: 0.5;
+    transition: .3s;
+}
+.form-title{
+ 
+   
+    border-radius: 30px;
+    background-color: #6d9886
+    
+}
+
+
